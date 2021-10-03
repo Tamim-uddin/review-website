@@ -1,10 +1,20 @@
 
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-     <p className="bg-red-400 text-green-300 hover:text-pink-900">this is from tailwind</p>
+      <Router>
+        <Header></Header>
+        <Switch>
+
+        </Switch>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }

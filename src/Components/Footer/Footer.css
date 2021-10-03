@@ -1,0 +1,44 @@
+.footer-container{
+    background-color: #3d3d47; 
+    color: white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.main-footer{
+    padding: 20px;
+    margin-left: 20px;
+}
+.main-footer p{
+    color: #909195;
+    margin-top: 20px;
+}
+.main-footer h3{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.about-schl{
+    padding: 20px;
+    margin-left: 20px;
+}
+.about-schl li{
+    color: #909195;
+    margin-top: 20px;
+    border-bottom: 1px solid #909195;
+}
+.about-schl li:hover{
+    color: white;
+}
+.deep-footer{
+    padding: 20px;
+    margin-left: 20px;
+}
+.deep-footer small p{
+    color: #909195;
+    margin-top: 20px;
+}
+.deep-footer small p:hover{
+    color: white;
+}
