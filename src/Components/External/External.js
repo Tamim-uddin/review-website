@@ -4,6 +4,7 @@ import './External.css';
 const External = () => {
     return (
         <div className="external-container">
+            {/* external header */}
             <div>
              <h3>Get Quote</h3>
              <p>Find the price of your ideal course</p>  

@@ -4,13 +4,14 @@ import './Header.css';
 
 const Header = () => {
     return (
+        // header title...
         <div className="header-container ">
           <div className="header-section">
-          <h1><span>Language</span> School</h1>
+          <h1><span>Language</span> Institute</h1>
           </div>
             
           <div>
-              
+              {/* header navlink  */}
            <nav className="nav-bar">
                 <NavLink to="/home" className="main-nav">HOME</NavLink>
                 <NavLink to="/courses" className="main-nav">COURSES</NavLink>

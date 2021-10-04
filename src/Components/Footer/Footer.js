@@ -4,12 +4,13 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer-container">
+            {/* footer about school */}
             <div className="main-footer">
-               <h3>Language School</h3>
+               <h3>Language Institute</h3>
                <p>Guide- scoring instructions, how to complete the skills tracking system, and strategies to take the data obtained from the assessment and develop it into an effective Individualized Education Program (IEP)</p>
             </div>
             <div className="about-schl">
-               <p>About School</p>
+               <p>About Institute</p>
               <small>
               <ul>            
                   <li>About us</li>
@@ -19,6 +20,7 @@ const Footer = () => {
                </ul>
               </small>
             </div>
+            {/* footer info */}
             <div className="deep-footer">
                <p>Contact Info</p>
                <small>

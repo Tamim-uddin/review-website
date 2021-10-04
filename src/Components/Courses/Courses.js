@@ -3,7 +3,9 @@ import Cart from '../Cart/Cart';
 import './Courses.css';
 
 const Courses = () => {
+    // load data....
     const [carts, setcarts] = useState([]);
+    // set data....
     useEffect( () => {
         fetch('./fulldata.JSON')
         .then(res => res.json())
@@ -18,6 +20,7 @@ const Courses = () => {
 
             
           <div className="cart-section">
+              {/* call  cart component */}
             {
                 carts.map(cart => <Cart cart={cart}></Cart>)
             }

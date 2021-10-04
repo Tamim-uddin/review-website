@@ -4,6 +4,7 @@ import './About.css';
 const About = () => {
     return (
         <div className="about-container">
+            {/* parts oof about component */}
            <div>
                <h2>History</h2>
                <h5>Sed posuere consectetur est at lobortis. Morbi leo risus porta.</h5>
