@@ -1,6 +1,7 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import About from './Components/About/About';
 import Courses from './Components/Courses/Courses';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/courses">
             <Courses></Courses>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
         </Switch>
         <Footer></Footer>

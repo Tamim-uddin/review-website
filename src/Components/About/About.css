@@ -1,0 +1,20 @@
+.about-container{
+    background-color: #e8e8e8;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-top: 80px;
+    padding: 50px;
+    
+}
+.about-container h2{
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.about-container h5{
+    margin-bottom: 20px;
+}
+.about-container p {
+    color: #525252;
+}
