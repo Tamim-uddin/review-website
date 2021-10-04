@@ -1,10 +1,14 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://optimistic-montalcini-fbcccf.netlify.app/).
 
-## Available Scripts
+## REVIEW-WEBSITE
 
-In the project directory, you can run:
+In thIS project directory  
+ 
+• I try explore about language instiute
+• About theire courses
+• And how they teach students
 
 ### `npm start`
 
