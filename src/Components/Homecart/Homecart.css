@@ -1,0 +1,49 @@
+.homecart{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.homecart-header{
+    margin-bottom: 15px;
+    border-bottom: lightgray 1px solid;
+}
+.homecart-header p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.homecart-header h2{
+    font-weight: 700;
+}
+.homecart-header img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.homecart-last img{
+    width: 25%;
+    height: 30px;
+    border-radius: 70%;
+    border-right: 4px solid #909195;
+    
+}
+
+.pic-part{
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5px;
+    
+}
+.text-side{
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.dollar{
+    background-color: grey;
+    border: 1px solid;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: 40px;
+   padding-left: 5px;
+}

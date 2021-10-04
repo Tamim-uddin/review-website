@@ -1,0 +1,17 @@
+.main-container{
+    background-color:#e8e8e8;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+.main-header{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    
+}
+.main-feet{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}

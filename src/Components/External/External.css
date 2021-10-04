@@ -1,0 +1,14 @@
+.external-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 80px;
+    margin-top: 50px;
+    background-color: #01a2a6;
+}
+.external-container h3 {
+    color: #fff199;
+    font-size: 30px;
+}
+.external-container p{
+    color: white;
+}
